@@ -6,7 +6,11 @@ uvicorn[standard]>=0.29
 duckdb>=1.0
 pydantic>=2.6
 pandas>=2.0
-# Optional LLM SDKs — only if the SERVER provides a key. Users can instead bring
-# their own key via the frontend (no server key needed). Uncomment to enable:
-# openai>=1.50      # covers both OpenAI and OpenRouter backends
-# anthropic>=0.40   # only for PYXIDA_LLM_BACKEND=anthropic
+# LLM SDK. Required for the σύμβουλος / LLM commentary, because users bring
+# their OWN key through the frontend (OpenRouter or OpenAI) — the SDK must be
+# present even when the server itself holds no key. Covers both the "openai"
+# and "openrouter" backends (OpenRouter is OpenAI-API-compatible).
+openai>=1.50
+# Only needed if someone uses PYXIDA_LLM_BACKEND=anthropic with a direct
+# Anthropic key; OpenRouter already routes to Claude, so this is optional.
+# anthropic>=0.40
