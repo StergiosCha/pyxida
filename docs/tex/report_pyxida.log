@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.6)  23 JUL 2026 16:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.6)  23 JUL 2026 16:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1046,7 +1046,7 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `report_pyxida.out' has not changed.
-(rerunfilecheck)             Checksum: 3B71940643F840FEE83812054370A41D;3340.
+(rerunfilecheck)             Checksum: EB3DBB24FCBC5591798000DED27F2CA7;3348.
  ) 
 Here is how much of TeX's memory you used:
  16640 strings out of 468933
@@ -1084,7 +1084,7 @@ xlive/2026basic/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local
 /texlive/2026basic/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/lo
 cal/texlive/2026basic/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr
 /local/texlive/2026basic/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on report_pyxida.pdf (6 pages, 828251 bytes).
+Output written on report_pyxida.pdf (6 pages, 828157 bytes).
 PDF statistics:
  246 PDF objects out of 1000 (max. 8388607)
  168 compressed objects within 2 object streams
