@@ -1,0 +1,127 @@
+geographiesByLevel_2_fullName,Archetype,median_price,median_price_per_sqm,avg_price_per_sqm,listings_sample_size
+Achaia (Peloponnisos),"Archetype 1 (1 Bed, <=55sqm)",510.0,12.65,13.255416666666667,72
+Achaia (Peloponnisos),"Archetype 2 (2 Bed, 56-95sqm)",750.0,10.0,10.168000000000001,15
+Arcadia (Peloponnisos),"Archetype 1 (1 Bed, <=55sqm)",375.0,9.76,8.671666666666667,18
+Arcadia (Peloponnisos),"Archetype 2 (2 Bed, 56-95sqm)",480.0,6.89,7.344666666666667,45
+Arcadia (Peloponnisos),"Archetype 3 (3+ Bed, >95sqm)",575.0,2.955,2.8825000000000003,12
+Argolis (Peloponnisos),"Archetype 1 (1 Bed, <=55sqm)",450.0,11.6,11.586666666666666,18
+Argolis (Peloponnisos),"Archetype 2 (2 Bed, 56-95sqm)",870.0,11.43,14.447142857142856,21
+Argolis (Peloponnisos),"Archetype 3 (3+ Bed, >95sqm)",850.0,7.27,7.198571428571428,21
+Arta Prefecture (Ipiros),"Archetype 1 (1 Bed, <=55sqm)",280.0,7.745,8.03,48
+Arta Prefecture (Ipiros),"Archetype 2 (2 Bed, 56-95sqm)",490.0,7.05,7.2225,12
+Arta Prefecture (Ipiros),"Archetype 3 (3+ Bed, >95sqm)",550.0,5.29,5.3533333333333335,9
+Athens - Center (Attica),"Archetype 1 (1 Bed, <=55sqm)",600.0,16.905,17.1275,48
+Athens - Center (Attica),"Archetype 2 (2 Bed, 56-95sqm)",885.0,12.195,12.781666666666666,18
+Athens - Center (Attica),"Archetype 3 (3+ Bed, >95sqm)",8000.0,28.369999999999997,28.369999999999994,6
+Athens - East (Attica),"Archetype 1 (1 Bed, <=55sqm)",675.0,12.775,12.775,6
+Athens - East (Attica),"Archetype 2 (2 Bed, 56-95sqm)",900.0,12.5,12.257777777777777,27
+Athens - East (Attica),"Archetype 3 (3+ Bed, >95sqm)",1900.0,9.09,10.772307692307692,39
+Athens - North (Attica),"Archetype 2 (2 Bed, 56-95sqm)",1200.0,15.24,15.24,6
+Athens - North (Attica),"Archetype 3 (3+ Bed, >95sqm)",3000.0,13.46,14.390952380952381,63
+Athens - South (Attica),"Archetype 1 (1 Bed, <=55sqm)",625.0,14.0,14.456999999999999,30
+Athens - South (Attica),"Archetype 2 (2 Bed, 56-95sqm)",850.0,10.71,11.124,15
+Athens - South (Attica),"Archetype 3 (3+ Bed, >95sqm)",2900.0,15.26,21.301111111111112,27
+Athens - West (Attica),"Archetype 1 (1 Bed, <=55sqm)",500.0,11.82,13.364444444444443,27
+Athens - West (Attica),"Archetype 2 (2 Bed, 56-95sqm)",720.0,8.72,9.042222222222223,27
+Athens - West (Attica),"Archetype 3 (3+ Bed, >95sqm)",800.0,7.8100000000000005,9.435,18
+Chalkidiki (Macedonia),"Archetype 1 (1 Bed, <=55sqm)",700.0,19.64,16.628,15
+Chalkidiki (Macedonia),"Archetype 2 (2 Bed, 56-95sqm)",1750.0,22.77,49.5325,24
+Chalkidiki (Macedonia),"Archetype 3 (3+ Bed, >95sqm)",3200.0,32.0,39.86636363636364,33
+Chania Prefecture (Crete),"Archetype 1 (1 Bed, <=55sqm)",580.0,12.89,16.724,15
+Chania Prefecture (Crete),"Archetype 2 (2 Bed, 56-95sqm)",875.0,12.0,13.554,30
+Chania Prefecture (Crete),"Archetype 3 (3+ Bed, >95sqm)",1700.0,10.48,11.232000000000001,15
+Corinthia (Peloponnisos),"Archetype 1 (1 Bed, <=55sqm)",365.0,9.190000000000001,8.475,30
+Corinthia (Peloponnisos),"Archetype 2 (2 Bed, 56-95sqm)",700.0,10.45,11.867142857142857,21
+Corinthia (Peloponnisos),"Archetype 3 (3+ Bed, >95sqm)",1200.0,7.4,23.131666666666668,18
+Drama Prefecture (Macedonia),"Archetype 1 (1 Bed, <=55sqm)",280.0,7.359999999999999,8.043125,48
+Drama Prefecture (Macedonia),"Archetype 2 (2 Bed, 56-95sqm)",390.0,4.725,4.6225,12
+Drama Prefecture (Macedonia),"Archetype 3 (3+ Bed, >95sqm)",450.0,3.785,3.785,6
+Evia (Sterea Ellada),"Archetype 1 (1 Bed, <=55sqm)",470.0,10.0,10.595,24
+Evia (Sterea Ellada),"Archetype 2 (2 Bed, 56-95sqm)",800.0,9.38,9.905454545454546,33
+Evia (Sterea Ellada),"Archetype 3 (3+ Bed, >95sqm)",850.0,5.605,5.81,24
+Evros (Thraki),"Archetype 1 (1 Bed, <=55sqm)",480.0,11.5,12.101176470588234,51
+Evros (Thraki),"Archetype 2 (2 Bed, 56-95sqm)",650.0,8.620000000000001,8.465,18
+Evros (Thraki),"Archetype 3 (3+ Bed, >95sqm)",1200.0,12.0,12.0,3
+Evrytania (Sterea Ellada),"Archetype 1 (1 Bed, <=55sqm)",250.0,7.08,6.744000000000001,45
+Evrytania (Sterea Ellada),"Archetype 2 (2 Bed, 56-95sqm)",410.0,4.925,4.925,6
+Evrytania (Sterea Ellada),"Archetype 3 (3+ Bed, >95sqm)",3000.0,7.69,6.866666666666667,9
+Florina Prefecture (Macedonia),"Archetype 1 (1 Bed, <=55sqm)",350.0,8.5,8.90764705882353,51
+Florina Prefecture (Macedonia),"Archetype 2 (2 Bed, 56-95sqm)",400.0,5.615,5.736249999999999,24
+Florina Prefecture (Macedonia),"Archetype 3 (3+ Bed, >95sqm)",400.0,4.0,4.0,3
+Fokida (Sterea Ellada),"Archetype 2 (2 Bed, 56-95sqm)",3000.0,38.46,41.138571428571424,21
+Fokida (Sterea Ellada),"Archetype 3 (3+ Bed, >95sqm)",11000.0,66.67,60.159333333333336,45
+Grevena (Macedonia),"Archetype 1 (1 Bed, <=55sqm)",235.0,6.25,6.33,36
+Grevena (Macedonia),"Archetype 2 (2 Bed, 56-95sqm)",350.0,5.38,4.747142857142857,21
+Grevena (Macedonia),"Archetype 3 (3+ Bed, >95sqm)",400.0,3.7,3.5,9
+Heraklion Prefecture (Crete),"Archetype 1 (1 Bed, <=55sqm)",550.0,12.11,12.001428571428571,42
+Heraklion Prefecture (Crete),"Archetype 2 (2 Bed, 56-95sqm)",750.0,9.46,9.726,15
+Heraklion Prefecture (Crete),"Archetype 3 (3+ Bed, >95sqm)",1450.0,7.154999999999999,7.368333333333333,18
+Imathia (Macedonia),"Archetype 1 (1 Bed, <=55sqm)",300.0,6.67,7.21909090909091,33
+Imathia (Macedonia),"Archetype 2 (2 Bed, 56-95sqm)",450.0,5.26,5.14,21
+Imathia (Macedonia),"Archetype 3 (3+ Bed, >95sqm)",570.0,4.29,4.1339999999999995,15
+Ioannina Prefecture (Ipiros),"Archetype 1 (1 Bed, <=55sqm)",500.0,12.73,12.897857142857143,84
+Karditsa Prefecture (Thessalia),"Archetype 1 (1 Bed, <=55sqm)",420.0,10.0,9.770666666666667,30
+Karditsa Prefecture (Thessalia),"Archetype 2 (2 Bed, 56-95sqm)",460.0,5.404999999999999,5.695,12
+Karditsa Prefecture (Thessalia),"Archetype 3 (3+ Bed, >95sqm)",475.0,3.7600000000000002,3.7600000000000002,4
+Kastoria Prefecture (Macedonia),"Archetype 1 (1 Bed, <=55sqm)",320.0,8.195,8.316666666666666,36
+Kastoria Prefecture (Macedonia),"Archetype 2 (2 Bed, 56-95sqm)",350.0,4.44,4.164,15
+Kastoria Prefecture (Macedonia),"Archetype 3 (3+ Bed, >95sqm)",430.0,3.31,2.43,9
+Kavala Prefecture (Macedonia),"Archetype 1 (1 Bed, <=55sqm)",350.0,8.92,9.4548,75
+Kavala Prefecture (Macedonia),"Archetype 2 (2 Bed, 56-95sqm)",540.0,6.16,6.16,6
+Kefallinia Prefecture (Ionian Islands),"Archetype 1 (1 Bed, <=55sqm)",500.0,11.11,13.242857142857144,21
+Kefallinia Prefecture (Ionian Islands),"Archetype 2 (2 Bed, 56-95sqm)",650.0,8.55,9.22875,24
+Kefallinia Prefecture (Ionian Islands),"Archetype 3 (3+ Bed, >95sqm)",825.0,6.97,8.434999999999999,18
+Kilkis Prefecture (Macedonia),"Archetype 1 (1 Bed, <=55sqm)",470.0,10.0,10.0,6
+Kilkis Prefecture (Macedonia),"Archetype 2 (2 Bed, 56-95sqm)",400.0,5.19,5.19,3
+Kilkis Prefecture (Macedonia),"Archetype 3 (3+ Bed, >95sqm)",630.0,4.92,5.953333333333333,9
+Kozani Prefecture (Macedonia),"Archetype 1 (1 Bed, <=55sqm)",300.0,8.57,8.605789473684212,57
+Kozani Prefecture (Macedonia),"Archetype 2 (2 Bed, 56-95sqm)",450.0,5.88,5.9,9
+Kozani Prefecture (Macedonia),"Archetype 3 (3+ Bed, >95sqm)",400.0,3.005,3.0925,12
+Lakonia (Peloponnisos),"Archetype 1 (1 Bed, <=55sqm)",350.0,8.75,9.194285714285714,21
+Lakonia (Peloponnisos),"Archetype 2 (2 Bed, 56-95sqm)",500.0,6.41,7.257142857142857,21
+Lakonia (Peloponnisos),"Archetype 3 (3+ Bed, >95sqm)",1500.0,13.64,49.752,15
+Lefkada Prefecture (Ionian Islands),"Archetype 1 (1 Bed, <=55sqm)",610.0,13.739999999999998,13.296428571428573,42
+Lefkada Prefecture (Ionian Islands),"Archetype 2 (2 Bed, 56-95sqm)",800.0,10.0,12.735714285714286,21
+Lefkada Prefecture (Ionian Islands),"Archetype 3 (3+ Bed, >95sqm)",950.0,9.13,13.088,15
+Magnesia (Thessalia),"Archetype 1 (1 Bed, <=55sqm)",450.0,10.675,11.014999999999999,54
+Magnesia (Thessalia),"Archetype 2 (2 Bed, 56-95sqm)",490.0,7.54,7.86,21
+Magnesia (Thessalia),"Archetype 3 (3+ Bed, >95sqm)",1300.0,11.3,11.300000000000002,3
+Messinia (Peloponnisos),"Archetype 1 (1 Bed, <=55sqm)",430.0,11.2,11.334444444444443,27
+Messinia (Peloponnisos),"Archetype 2 (2 Bed, 56-95sqm)",700.0,7.92,8.3375,24
+Messinia (Peloponnisos),"Archetype 3 (3+ Bed, >95sqm)",1000.0,6.51,7.302499999999999,24
+Pella (Macedonia),"Archetype 1 (1 Bed, <=55sqm)",300.0,7.2,7.728888888888889,27
+Pella (Macedonia),"Archetype 2 (2 Bed, 56-95sqm)",370.0,4.67,4.799090909090909,33
+Pella (Macedonia),"Archetype 3 (3+ Bed, >95sqm)",600.0,3.875,3.8433333333333337,18
+Phthiotis (Sterea Ellada),"Archetype 1 (1 Bed, <=55sqm)",350.0,7.42,7.291875,48
+Phthiotis (Sterea Ellada),"Archetype 2 (2 Bed, 56-95sqm)",450.0,5.63,6.224,15
+Phthiotis (Sterea Ellada),"Archetype 3 (3+ Bed, >95sqm)",7500.0,25.86,25.86,3
+Piraeus (Attica),"Archetype 1 (1 Bed, <=55sqm)",500.0,12.985,14.399,30
+Piraeus (Attica),"Archetype 2 (2 Bed, 56-95sqm)",840.0,12.655000000000001,12.21857142857143,42
+Piraeus (Attica),"Archetype 3 (3+ Bed, >95sqm)",1200.0,10.91,10.910000000000002,3
+Piraeus suburbs (Attica),"Archetype 1 (1 Bed, <=55sqm)",615.0,13.25,13.523333333333333,18
+Piraeus suburbs (Attica),"Archetype 2 (2 Bed, 56-95sqm)",750.0,9.87,9.76153846153846,39
+Piraeus suburbs (Attica),"Archetype 3 (3+ Bed, >95sqm)",1650.0,13.75,12.64,9
+Preveza Prefecture (Ipiros),"Archetype 1 (1 Bed, <=55sqm)",400.0,9.0,7.424615384615385,39
+Preveza Prefecture (Ipiros),"Archetype 2 (2 Bed, 56-95sqm)",550.0,7.455,5.71,18
+Preveza Prefecture (Ipiros),"Archetype 3 (3+ Bed, >95sqm)",585.0,4.029999999999999,3.7624999999999997,24
+Rest of Attica (Attica),"Archetype 1 (1 Bed, <=55sqm)",490.0,9.42,9.42,3
+Rest of Attica (Attica),"Archetype 2 (2 Bed, 56-95sqm)",850.0,11.33,11.274000000000001,15
+Rest of Attica (Attica),"Archetype 3 (3+ Bed, >95sqm)",2600.0,10.0,13.75235294117647,51
+Rethymno Prefecture (Crete),"Archetype 1 (1 Bed, <=55sqm)",515.0,11.705,12.43125,24
+Rethymno Prefecture (Crete),"Archetype 2 (2 Bed, 56-95sqm)",1000.0,11.98,13.716666666666667,18
+Rethymno Prefecture (Crete),"Archetype 3 (3+ Bed, >95sqm)",1500.0,8.81,9.43,27
+Serres Prefecture (Macedonia),"Archetype 1 (1 Bed, <=55sqm)",300.0,7.45,7.408888888888889,54
+Serres Prefecture (Macedonia),"Archetype 2 (2 Bed, 56-95sqm)",375.0,4.8,4.8,6
+Serres Prefecture (Macedonia),"Archetype 3 (3+ Bed, >95sqm)",450.0,4.5,4.5,3
+Thesprotia (Ipiros),"Archetype 1 (1 Bed, <=55sqm)",360.0,8.57,9.68,15
+Thesprotia (Ipiros),"Archetype 2 (2 Bed, 56-95sqm)",400.0,5.33,5.728,15
+Thesprotia (Ipiros),"Archetype 3 (3+ Bed, >95sqm)",550.0,3.89,6.513999999999999,15
+Thessaloniki - Municipality (Thessaloniki),"Archetype 1 (1 Bed, <=55sqm)",450.0,11.35,12.35,45
+Thessaloniki - Municipality (Thessaloniki),"Archetype 2 (2 Bed, 56-95sqm)",650.0,8.27,9.3125,12
+Thessaloniki - Municipality (Thessaloniki),"Archetype 3 (3+ Bed, >95sqm)",750.0,7.205,7.205000000000001,6
+Trikala Prefecture (Thessalia),"Archetype 1 (1 Bed, <=55sqm)",400.0,9.075,9.4475,32
+Trikala Prefecture (Thessalia),"Archetype 2 (2 Bed, 56-95sqm)",550.0,8.46,7.43,6
+Trikala Prefecture (Thessalia),"Archetype 3 (3+ Bed, >95sqm)",900.0,7.38,6.326666666666667,6
+Xanthi Prefecture (Thraki),"Archetype 1 (1 Bed, <=55sqm)",360.0,8.0,8.832380952380952,63
+Xanthi Prefecture (Thraki),"Archetype 2 (2 Bed, 56-95sqm)",480.0,8.0,7.559999999999999,9
+Xanthi Prefecture (Thraki),"Archetype 3 (3+ Bed, >95sqm)",600.0,5.0,5.0,3

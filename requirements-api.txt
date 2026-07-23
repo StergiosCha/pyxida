@@ -1,0 +1,12 @@
+# Runtime deps for the FastAPI backend only (Render/production).
+# Pipeline-only libs (matplotlib, openpyxl, xlrd, tabulate) are intentionally
+# excluded — they are not imported by anything under api/.
+fastapi>=0.110
+uvicorn[standard]>=0.29
+duckdb>=1.0
+pydantic>=2.6
+pandas>=2.0
+# Optional LLM SDKs — only if the SERVER provides a key. Users can instead bring
+# their own key via the frontend (no server key needed). Uncomment to enable:
+# openai>=1.50      # covers both OpenAI and OpenRouter backends
+# anthropic>=0.40   # only for PYXIDA_LLM_BACKEND=anthropic

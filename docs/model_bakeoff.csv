@@ -1,0 +1,9 @@
+target,model,MAE,beats_baseline
+base_moria,carry-forward,400.3,no
+base_moria,mechanistic ΕΒΕ,374.6,yes
+base_moria,hierarchical EB,374.7,yes
+base_moria,gradient boost,397.2,yes
+admitted_students,carry-forward,11.73,no
+admitted_students,mechanistic,10.36,yes
+admitted_students,hurdle,16.19,no
+admitted_students,gradient boost,14.73,no

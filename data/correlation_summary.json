@@ -1,0 +1,19 @@
+{
+ "n": 408,
+ "r2": 0.268,
+ "spearman": {
+  "base_2019": {
+   "spearman": -0.313,
+   "p": 9.59e-11
+  },
+  "tourism_per_capita": {
+   "spearman": 0.053,
+   "p": 0.283
+  },
+  "gdp_per_capita": {
+   "spearman": -0.036,
+   "p": 0.469
+  }
+ },
+ "finding": "pre-ΕΒΕ baseline βάση is the only significant predictor (p<1e-10); tourism/GDP/metro non-significant with field+baseline controls"
+}

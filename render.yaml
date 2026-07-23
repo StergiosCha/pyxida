@@ -1,0 +1,24 @@
+# Render deployment for the Πυξίδα ΑΕΙ FastAPI backend.
+# Free tier: 512 MB RAM, sleeps after 15 min idle (~30-50s cold start).
+# The 8.8 MB DuckDB file is committed to the repo and opened read-only on disk,
+# so no external database or disk mount is needed.
+services:
+  - type: web
+    name: pyxida-api
+    runtime: python
+    plan: free
+    region: frankfurt          # closest to Greece
+    buildCommand: pip install -r requirements-api.txt
+    startCommand: uvicorn api.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: PYXIDA_ENABLE_PREDICTIONS
+        value: "1"
+      # RAG advisor: left OFF server-side. Visitors supply their own LLM key
+      # through the app UI (stored in their browser only). To enable a
+      # server-side key instead, set PYXIDA_ENABLE_RAG=1 + PYXIDA_LLM_BACKEND
+      # + the matching *_API_KEY as a secret in the Render dashboard, and
+      # uncomment the SDK in requirements-api.txt.
+      - key: PYXIDA_ENABLE_RAG
+        value: "0"

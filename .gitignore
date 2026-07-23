@@ -1,0 +1,16 @@
+# python
+__pycache__/
+*.pyc
+.venv-pyxida/
+.venv/
+# node
+.npm-cache/
+web/node_modules/
+web/dist/
+# os
+.DS_Store
+**/.DS_Store
+# heavy / re-fetchable raw data (keep processed + small CSVs)
+data/raw/
+# scratch
+aeitei_test.html

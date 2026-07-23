@@ -1,0 +1,19 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+duckdb>=1.0
+pydantic>=2.6
+pandas>=2.0
+openpyxl>=3.1
+xlrd>=2.0
+requests>=2.31
+matplotlib>=3.8
+tabulate>=0.9
+
+# Optional — only needed if you enable the LLM advisor backend. The app runs
+# fully without these (PYXIDA_LLM_BACKEND=template is the default).
+#   PYXIDA_LLM_BACKEND=anthropic   -> needs: anthropic  (+ ANTHROPIC_API_KEY)
+#   PYXIDA_LLM_BACKEND=openai      -> needs: openai      (+ OPENAI_API_KEY)
+#   PYXIDA_LLM_BACKEND=openrouter  -> needs: openai      (+ OPENROUTER_API_KEY)
+#        default model anthropic/claude-sonnet-4.6; override via PYXIDA_LLM_MODEL
+# anthropic>=0.40
+# openai>=1.50
