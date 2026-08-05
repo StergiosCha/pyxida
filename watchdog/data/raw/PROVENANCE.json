@@ -1,0 +1,83 @@
+{
+ "retrieved": "2026-07-19",
+ "sources": [
+  {
+   "id": "worldbank_wgi",
+   "name": "World Bank Worldwide Governance Indicators",
+   "indicators": [
+    "Control of Corruption",
+    "Rule of Law",
+    "Voice and Accountability",
+    "Government Effectiveness"
+   ],
+   "file": "worldbank/wgi_greece.json",
+   "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+   "methodology": "Composite perception-based percentile scores 0-100 with 90% confidence intervals",
+   "coverage": "1996-2024",
+   "note": "CIs are wide; report as-is"
+  },
+  {
+   "id": "owid_rsf",
+   "name": "Reporter Without Borders — World Press Freedom Index (via Our World in Data)",
+   "indicators": [
+    "Press Freedom Index"
+   ],
+   "file": "owid_rsf_press_freedom.csv",
+   "url": "https://rsf.org/en/index",
+   "methodology": "0-100 higher=freer (OWID-recoded)",
+   "coverage": "2013-2021",
+   "gap": "OWID series ends 2021 (RSF methodology change); post-2021 ranks ingested separately as source 'rsf_direct'"
+  },
+  {
+   "id": "owid_vdem_libdem",
+   "name": "V-Dem Liberal Democracy Index (via Our World in Data)",
+   "indicators": [
+    "Liberal democracy index"
+   ],
+   "file": "owid_vdem_libdem.csv",
+   "url": "https://v-dem.net",
+   "methodology": "0-1 expert-coded composite",
+   "coverage": "to 2025"
+  },
+  {
+   "id": "owid_vdem_freeexpr",
+   "name": "V-Dem Freedom of Expression Index (via Our World in Data)",
+   "indicators": [
+    "Freedom of expression index"
+   ],
+   "file": "owid_vdem_freeexpr.csv",
+   "url": "https://v-dem.net",
+   "methodology": "0-1 expert-coded composite",
+   "coverage": "to 2025"
+  },
+  {
+   "id": "owid_cpi",
+   "name": "Transparency International — Corruption Perceptions Index (via Our World in Data)",
+   "indicators": [
+    "Corruption Perceptions Index"
+   ],
+   "file": "owid_cpi.csv",
+   "url": "https://www.transparency.org/en/cpi",
+   "methodology": "0-100 higher=cleaner",
+   "coverage": "2012-2024"
+  },
+  {
+   "id": "rsf_direct",
+   "name": "Reporters Without Borders — World Press Freedom Index (rank, verified 2022-2025)",
+   "indicators": [
+    "Press Freedom rank"
+   ],
+   "file": "manual/rsf_post2021.csv",
+   "url": "https://rsf.org/en/country/greece",
+   "methodology": "Global rank of 180; ranks 108/107/88/89 verified via RSF + reporting",
+   "coverage": "2022-2025",
+   "note": "2022=108,2023=107,2024=88,2025=89 — all last-in-EU; 2022/23 scores 55.5/55.2 verified, 2024/25 score omitted pending RSF confirmation"
+  }
+ ],
+ "pending_manual_ingest": [
+  "Media Pluralism Monitor risk scores (CMPF/EUI) — PDF/CSV",
+  "MFRR / Council of Europe press-freedom alerts (journalist attacks, SLAPPs, Predator surveillance)",
+  "EU Commission Rule of Law Report — Greece chapter key findings",
+  "Media ownership + state-advertising (λίστα Πέτσα)"
+ ]
+}

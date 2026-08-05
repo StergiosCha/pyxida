@@ -1,0 +1,834 @@
+[
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 1996,
+  "score": 62.1130656,
+  "lb": 55.485052,
+  "ub": 68.7410792
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 1998,
+  "score": 67.5710962,
+  "lb": 60.9430826,
+  "ub": 74.1991098
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2000,
+  "score": 66.1657022,
+  "lb": 59.5376886,
+  "ub": 72.7937157
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2002,
+  "score": 56.9894272,
+  "lb": 50.3614136,
+  "ub": 63.6174407
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2003,
+  "score": 56.7006938,
+  "lb": 50.0726803,
+  "ub": 63.3287074
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2004,
+  "score": 57.5431586,
+  "lb": 50.9385463,
+  "ub": 64.147771
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2005,
+  "score": 55.8969207,
+  "lb": 49.2923084,
+  "ub": 62.501533
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2006,
+  "score": 57.4680747,
+  "lb": 50.9163859,
+  "ub": 64.0197635
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2007,
+  "score": 53.6197035,
+  "lb": 47.0680147,
+  "ub": 60.1713924
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2008,
+  "score": 51.3939363,
+  "lb": 44.8422475,
+  "ub": 57.9456251
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2009,
+  "score": 49.8113135,
+  "lb": 43.2596247,
+  "ub": 56.3630023
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2010,
+  "score": 47.2198323,
+  "lb": 41.3212042,
+  "ub": 53.1184604
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2011,
+  "score": 46.3238954,
+  "lb": 40.4252674,
+  "ub": 52.2225235
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2012,
+  "score": 47.3900535,
+  "lb": 42.0800492,
+  "ub": 52.7000578
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2013,
+  "score": 50.0778459,
+  "lb": 44.7678416,
+  "ub": 55.3878502
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2014,
+  "score": 47.8948956,
+  "lb": 42.5848913,
+  "ub": 53.2048999
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2015,
+  "score": 48.300791,
+  "lb": 42.9222064,
+  "ub": 53.6793756
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2016,
+  "score": 49.648189,
+  "lb": 44.2696044,
+  "ub": 55.0267736
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2017,
+  "score": 50.8239408,
+  "lb": 45.4453562,
+  "ub": 56.2025254
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2018,
+  "score": 52.7293027,
+  "lb": 47.3507181,
+  "ub": 58.1078873
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2019,
+  "score": 54.0093632,
+  "lb": 48.6307786,
+  "ub": 59.3879478
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2020,
+  "score": 53.5422898,
+  "lb": 48.1637052,
+  "ub": 58.9208744
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2021,
+  "score": 55.7703119,
+  "lb": 50.3917273,
+  "ub": 61.1488965
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2022,
+  "score": 54.3827082,
+  "lb": 49.0041236,
+  "ub": 59.7612928
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2023,
+  "score": 54.5203203,
+  "lb": 49.1844595,
+  "ub": 59.8561811
+ },
+ {
+  "ind": "CC",
+  "label": "Control of Corruption",
+  "year": 2024,
+  "score": 53.9208369,
+  "lb": 48.5849761,
+  "ub": 59.2566977
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 1996,
+  "score": 61.2174263,
+  "lb": 53.1577011,
+  "ub": 69.2771514
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 1998,
+  "score": 56.8245613,
+  "lb": 48.7648361,
+  "ub": 64.8842865
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2000,
+  "score": 57.5247171,
+  "lb": 49.464992,
+  "ub": 65.5844423
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2002,
+  "score": 59.8090706,
+  "lb": 51.9032662,
+  "ub": 67.714875
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2003,
+  "score": 61.4047733,
+  "lb": 53.4989689,
+  "ub": 69.3105777
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2004,
+  "score": 64.3124359,
+  "lb": 56.4066315,
+  "ub": 72.2182403
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2005,
+  "score": 61.021903,
+  "lb": 53.1160986,
+  "ub": 68.9277074
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2006,
+  "score": 61.9642886,
+  "lb": 54.1622005,
+  "ub": 69.7663766
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2007,
+  "score": 60.9811989,
+  "lb": 53.1791109,
+  "ub": 68.7832869
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2008,
+  "score": 60.247963,
+  "lb": 52.4458749,
+  "ub": 68.050051
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2009,
+  "score": 60.9675764,
+  "lb": 53.1654884,
+  "ub": 68.7696645
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2010,
+  "score": 57.259701,
+  "lb": 49.8182587,
+  "ub": 64.7011433
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2011,
+  "score": 56.315898,
+  "lb": 48.8744557,
+  "ub": 63.7573403
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2012,
+  "score": 55.7531725,
+  "lb": 48.3117302,
+  "ub": 63.1946148
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2013,
+  "score": 59.0507519,
+  "lb": 51.6093096,
+  "ub": 66.4921942
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2014,
+  "score": 56.0998457,
+  "lb": 48.6584035,
+  "ub": 63.541288
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2015,
+  "score": 54.8741394,
+  "lb": 47.4326971,
+  "ub": 62.3155817
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2016,
+  "score": 52.9718104,
+  "lb": 45.5303681,
+  "ub": 60.4132527
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2017,
+  "score": 56.4412613,
+  "lb": 48.9998191,
+  "ub": 63.8827036
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2018,
+  "score": 57.9494834,
+  "lb": 50.5080411,
+  "ub": 65.3909257
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2019,
+  "score": 60.2647801,
+  "lb": 52.8233378,
+  "ub": 67.7062224
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2020,
+  "score": 62.7489676,
+  "lb": 55.3075253,
+  "ub": 70.1904098
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2021,
+  "score": 62.4764927,
+  "lb": 55.0350504,
+  "ub": 69.917935
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2022,
+  "score": 62.2992157,
+  "lb": 55.1634101,
+  "ub": 69.4350213
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2023,
+  "score": 56.3540919,
+  "lb": 49.2547574,
+  "ub": 63.4534263
+ },
+ {
+  "ind": "GE",
+  "label": "Government Effectiveness",
+  "year": 2024,
+  "score": 55.0595965,
+  "lb": 47.960262,
+  "ub": 62.158931
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 1996,
+  "score": 74.0627507,
+  "lb": 68.7898611,
+  "ub": 79.3356403
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 1998,
+  "score": 69.3878143,
+  "lb": 64.1149246,
+  "ub": 74.6607039
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2000,
+  "score": 70.9802053,
+  "lb": 65.8911638,
+  "ub": 76.0692468
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2002,
+  "score": 70.77562,
+  "lb": 65.6865785,
+  "ub": 75.8646614
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2003,
+  "score": 72.0545284,
+  "lb": 66.9654869,
+  "ub": 77.1435699
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2004,
+  "score": 72.7364354,
+  "lb": 67.6473939,
+  "ub": 77.8254769
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2005,
+  "score": 70.8323292,
+  "lb": 65.8883757,
+  "ub": 75.7762827
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2006,
+  "score": 70.9378377,
+  "lb": 66.0069798,
+  "ub": 75.8686956
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2007,
+  "score": 70.8932121,
+  "lb": 65.9623542,
+  "ub": 75.82407
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2008,
+  "score": 69.0260263,
+  "lb": 64.0951684,
+  "ub": 73.9568842
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2009,
+  "score": 67.6893467,
+  "lb": 62.7584888,
+  "ub": 72.6202046
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2010,
+  "score": 65.211625,
+  "lb": 60.5108433,
+  "ub": 69.9124068
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2011,
+  "score": 65.2048079,
+  "lb": 60.5040261,
+  "ub": 69.9055897
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2012,
+  "score": 62.917471,
+  "lb": 58.9731031,
+  "ub": 66.8618389
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2013,
+  "score": 63.7583206,
+  "lb": 59.8139526,
+  "ub": 67.7026885
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2014,
+  "score": 63.1757641,
+  "lb": 59.2313962,
+  "ub": 67.120132
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2015,
+  "score": 62.8102173,
+  "lb": 58.7784431,
+  "ub": 66.8419915
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2016,
+  "score": 61.5190101,
+  "lb": 57.4872359,
+  "ub": 65.5507843
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2017,
+  "score": 61.7475115,
+  "lb": 57.7157373,
+  "ub": 65.7792857
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2018,
+  "score": 61.7795957,
+  "lb": 57.6931672,
+  "ub": 65.8660242
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2019,
+  "score": 63.5706981,
+  "lb": 59.4842696,
+  "ub": 67.6571266
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2020,
+  "score": 65.1052509,
+  "lb": 60.8129686,
+  "ub": 69.3975331
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2021,
+  "score": 64.605187,
+  "lb": 60.3129047,
+  "ub": 68.8974693
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2022,
+  "score": 65.3854549,
+  "lb": 61.1687689,
+  "ub": 69.6021409
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2023,
+  "score": 63.7866683,
+  "lb": 59.5907935,
+  "ub": 67.9825431
+ },
+ {
+  "ind": "RL",
+  "label": "Rule of Law",
+  "year": 2024,
+  "score": 62.0986924,
+  "lb": 57.9028176,
+  "ub": 66.2945672
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 1996,
+  "score": 74.801173,
+  "lb": 69.256514,
+  "ub": 80.345832
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 1998,
+  "score": 77.5082883,
+  "lb": 71.9636293,
+  "ub": 83.0529473
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2000,
+  "score": 78.3414295,
+  "lb": 72.8590304,
+  "ub": 83.8238286
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2002,
+  "score": 76.6197184,
+  "lb": 71.3418638,
+  "ub": 81.8975729
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2003,
+  "score": 77.5179566,
+  "lb": 72.2401021,
+  "ub": 82.7958112
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2004,
+  "score": 76.9149504,
+  "lb": 71.6370958,
+  "ub": 82.1928049
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2005,
+  "score": 77.0494238,
+  "lb": 71.7715692,
+  "ub": 82.3272783
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2006,
+  "score": 77.6959534,
+  "lb": 72.4313378,
+  "ub": 82.9605691
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2007,
+  "score": 78.2776067,
+  "lb": 73.012991,
+  "ub": 83.5422223
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2008,
+  "score": 76.0836679,
+  "lb": 70.8190523,
+  "ub": 81.3482836
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2009,
+  "score": 76.9488685,
+  "lb": 71.6842528,
+  "ub": 82.2134841
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2010,
+  "score": 74.5182943,
+  "lb": 70.026326,
+  "ub": 79.0102626
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2011,
+  "score": 73.2601226,
+  "lb": 68.7681543,
+  "ub": 77.7520909
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2012,
+  "score": 69.2308011,
+  "lb": 65.2294871,
+  "ub": 73.2321152
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2013,
+  "score": 68.6771029,
+  "lb": 64.6757889,
+  "ub": 72.6784169
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2014,
+  "score": 68.9194616,
+  "lb": 64.9181476,
+  "ub": 72.9207756
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2015,
+  "score": 68.5275896,
+  "lb": 64.0091051,
+  "ub": 73.0460742
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2016,
+  "score": 68.7174146,
+  "lb": 64.1989301,
+  "ub": 73.2358992
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2017,
+  "score": 68.4514591,
+  "lb": 64.0645617,
+  "ub": 72.8383564
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2018,
+  "score": 69.092871,
+  "lb": 64.4032734,
+  "ub": 73.7824687
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2019,
+  "score": 69.7011648,
+  "lb": 65.0115671,
+  "ub": 74.3907624
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2020,
+  "score": 71.8204834,
+  "lb": 67.1308858,
+  "ub": 76.5100811
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2021,
+  "score": 70.8235136,
+  "lb": 66.133916,
+  "ub": 75.5131113
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2022,
+  "score": 70.7122573,
+  "lb": 66.0226597,
+  "ub": 75.401855
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2023,
+  "score": 71.378003,
+  "lb": 66.6438265,
+  "ub": 76.1121795
+ },
+ {
+  "ind": "VA",
+  "label": "Voice and Accountability",
+  "year": 2024,
+  "score": 70.5336147,
+  "lb": 65.7994382,
+  "ub": 75.2677911
+ }
+]

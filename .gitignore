@@ -14,3 +14,8 @@ web/dist/
 data/raw/
 # scratch
 aeitei_test.html
+
+# --- κλάδος watchdog ---
+watchdog/web/node_modules/
+watchdog/web/dist/
+watchdog/.venv-watchdog/

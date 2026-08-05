@@ -1,0 +1,50 @@
+source_name,indicator,year,value,unit,direction,lower_bound,upper_bound,greece_rank,total_ranked,eu_comparison,source_url,methodology_url,retrieved_date,note
+Freedom House,Freedom in the World - Total Score,2024,85,/100,,,,,,,https://freedomhouse.org/country/greece/freedom-world/2024,https://freedomhouse.org/reports/freedom-world/freedom-world-research-methodology,2026-07-19,
+Freedom House,Freedom in the World - Political Rights,2024,35,/40,,,,,,,https://freedomhouse.org/country/greece/freedom-world/2024,https://freedomhouse.org/reports/freedom-world/freedom-world-research-methodology,2026-07-19,
+Freedom House,Freedom in the World - Civil Liberties,2024,50,/60,,,,,,,https://freedomhouse.org/country/greece/freedom-world/2024,https://freedomhouse.org/reports/freedom-world/freedom-world-research-methodology,2026-07-19,
+Freedom House,Freedom in the World - Total Score,2023,86,/100,,,,,,,https://freedomhouse.org/country/greece/freedom-world/2023,https://freedomhouse.org/reports/freedom-world/freedom-world-research-methodology,2026-07-19,
+Freedom House,Freedom in the World - Total Score,2022,87,/100,,,,,,,https://freedomhouse.org/country/greece/freedom-world/2022,https://freedomhouse.org/reports/freedom-world/freedom-world-research-methodology,2026-07-19,
+Freedom House,Freedom in the World - Total Score,2021,88,/100,,,,,,,https://freedomhouse.org/country/greece/freedom-world/2021,https://freedomhouse.org/reports/freedom-world/freedom-world-research-methodology,2026-07-19,
+Freedom House,Freedom in the World - Total Score,2020,88,/100,,,,,,,https://freedomhouse.org/country/greece/freedom-world/2020,https://freedomhouse.org/reports/freedom-world/freedom-world-research-methodology,2026-07-19,
+Economist Intelligence Unit,Democracy Index - Overall Score,2024,8.07,0-10,,,25,167,,,https://ourworldindata.org/grapher/democracy-index-eiu?country=~GRC,https://www.eiu.com/n/campaigns/democracy-index-2024/,2026-07-19,Full Democracy
+Economist Intelligence Unit,Democracy Index - Overall Score,2023,8.14,0-10,,,20,167,,,https://ourworldindata.org/grapher/democracy-index-eiu?country=~GRC,https://www.eiu.com/n/campaigns/democracy-index-2024/,2026-07-19,Reclassified as Full Democracy
+Economist Intelligence Unit,Democracy Index - Overall Score,2022,7.97,0-10,,,25,167,,,https://ourworldindata.org/grapher/democracy-index-eiu?country=~GRC,https://www.eiu.com/n/campaigns/democracy-index-2024/,2026-07-19,Flawed Democracy
+Economist Intelligence Unit,Democracy Index - Overall Score,2021,7.56,0-10,,,34,167,,,https://ourworldindata.org/grapher/democracy-index-eiu?country=~GRC,https://www.eiu.com/n/campaigns/democracy-index-2024/,2026-07-19,Flawed Democracy
+Economist Intelligence Unit,Democracy Index - Overall Score,2020,7.39,0-10,,,39,167,,,https://ourworldindata.org/grapher/democracy-index-eiu?country=~GRC,https://www.eiu.com/n/campaigns/democracy-index-2024/,2026-07-19,Flawed Democracy
+Economist Intelligence Unit,Democracy Index - Overall Score,2019,7.43,0-10,,,39,167,,,https://ourworldindata.org/grapher/democracy-index-eiu?country=~GRC,https://www.eiu.com/n/campaigns/democracy-index-2024/,2026-07-19,Flawed Democracy
+V-Dem Institute,Liberal Democracy Index,2023,0.576,0-1,,,,,,,https://ourworldindata.org/grapher/liberal-democracy-index?country=~GRC,https://v-dem.net/documents/,2026-07-19,
+V-Dem Institute,Liberal Democracy Index,2022,0.60,0-1,,,,,,,https://ourworldindata.org/grapher/liberal-democracy-index?country=~GRC,https://v-dem.net/documents/,2026-07-19,
+V-Dem Institute,Liberal Democracy Index,2021,0.62,0-1,,,,,,,https://ourworldindata.org/grapher/liberal-democracy-index?country=~GRC,https://v-dem.net/documents/,2026-07-19,
+V-Dem Institute,Liberal Democracy Index,2020,0.65,0-1,,,,,,,https://ourworldindata.org/grapher/liberal-democracy-index?country=~GRC,https://v-dem.net/documents/,2026-07-19,
+V-Dem Institute,Liberal Democracy Index,2019,0.67,0-1,,,,,,,https://ourworldindata.org/grapher/liberal-democracy-index?country=~GRC,https://v-dem.net/documents/,2026-07-19,
+V-Dem Institute,Electoral Democracy Index,2023,0.78,0-1,,,,,,,https://ourworldindata.org/grapher/electoral-democracy-index?country=~GRC,https://v-dem.net/documents/,2026-07-19,
+V-Dem Institute,Electoral Democracy Index,2022,0.80,0-1,,,,,,,https://ourworldindata.org/grapher/electoral-democracy-index?country=~GRC,https://v-dem.net/documents/,2026-07-19,
+V-Dem Institute,Electoral Democracy Index,2021,0.82,0-1,,,,,,,https://ourworldindata.org/grapher/electoral-democracy-index?country=~GRC,https://v-dem.net/documents/,2026-07-19,
+V-Dem Institute,Electoral Democracy Index,2020,0.83,0-1,,,,,,,https://ourworldindata.org/grapher/electoral-democracy-index?country=~GRC,https://v-dem.net/documents/,2026-07-19,
+V-Dem Institute,Electoral Democracy Index,2019,0.84,0-1,,,,,,,https://ourworldindata.org/grapher/electoral-democracy-index?country=~GRC,https://v-dem.net/documents/,2026-07-19,
+World Bank,Control of Corruption,2022,58.0,percentile,,,,,,,https://info.worldbank.org/governance/wgi/,https://info.worldbank.org/governance/wgi/,2026-07-19,
+World Bank,Control of Corruption,2021,62.98,percentile,,,,,,,https://info.worldbank.org/governance/wgi/,https://info.worldbank.org/governance/wgi/,2026-07-19,
+World Bank,Control of Corruption,2020,61.54,percentile,,,,,,,https://info.worldbank.org/governance/wgi/,https://info.worldbank.org/governance/wgi/,2026-07-19,
+World Bank,Control of Corruption,2019,58.17,percentile,,,,,,,https://info.worldbank.org/governance/wgi/,https://info.worldbank.org/governance/wgi/,2026-07-19,
+World Bank,Rule of Law,2022,59.43,percentile,,,,,,,https://info.worldbank.org/governance/wgi/,https://info.worldbank.org/governance/wgi/,2026-07-19,
+World Bank,Rule of Law,2021,60.48,percentile,,,,,,,https://info.worldbank.org/governance/wgi/,https://info.worldbank.org/governance/wgi/,2026-07-19,
+World Bank,Rule of Law,2020,60.00,percentile,,,,,,,https://info.worldbank.org/governance/wgi/,https://info.worldbank.org/governance/wgi/,2026-07-19,
+World Bank,Rule of Law,2019,57.62,percentile,,,,,,,https://info.worldbank.org/governance/wgi/,https://info.worldbank.org/governance/wgi/,2026-07-19,
+World Bank,Voice & Accountability,2022,87.0,percentile,,,,,,,https://info.worldbank.org/governance/wgi/,https://info.worldbank.org/governance/wgi/,2026-07-19,
+World Bank,Voice & Accountability,2019,77.2,percentile,,,,,,,https://info.worldbank.org/governance/wgi/,https://info.worldbank.org/governance/wgi/,2026-07-19,
+World Bank,Government Effectiveness,2022,66.5,percentile,,,,,,,https://info.worldbank.org/governance/wgi/,https://info.worldbank.org/governance/wgi/,2026-07-19,
+Reporters Without Borders,World Press Freedom Index - Overall,2025,55.37,0-100,,,89,180,Lowest in EU,,https://rsf.org/en/country/greece,https://rsf.org/en/index-methodology,2026-07-19,
+Reporters Without Borders,World Press Freedom Index - Overall,2024,57.15,0-100,,,88,180,Lowest in EU,,https://rsf.org/en/country/greece,https://rsf.org/en/index-methodology,2026-07-19,
+Reporters Without Borders,World Press Freedom Index - Overall,2023,55.20,0-100,,,107,180,Lowest in EU,,https://rsf.org/en/country/greece,https://rsf.org/en/index-methodology,2026-07-19,
+Reporters Without Borders,World Press Freedom Index - Overall,2022,55.52,0-100,,,108,180,Lowest in EU,,https://rsf.org/en/country/greece,https://rsf.org/en/index-methodology,2026-07-19,
+CMPF,Media Pluralism Monitor - Fundamental Protection,2023,52,% risk,,,,,,,https://cmpf.eui.eu/country/greece/,https://cmpf.eui.eu/projects-cmpf/media-pluralism-monitor/,2026-07-19,Medium Risk
+CMPF,Media Pluralism Monitor - Market Plurality,2023,79,% risk,,,,,,,https://cmpf.eui.eu/country/greece/,https://cmpf.eui.eu/projects-cmpf/media-pluralism-monitor/,2026-07-19,High Risk
+CMPF,Media Pluralism Monitor - Political Independence,2023,68,% risk,,,,,,,https://cmpf.eui.eu/country/greece/,https://cmpf.eui.eu/projects-cmpf/media-pluralism-monitor/,2026-07-19,High Risk
+CMPF,Media Pluralism Monitor - Social Inclusiveness,2023,61,% risk,,,,,,,https://cmpf.eui.eu/country/greece/,https://cmpf.eui.eu/projects-cmpf/media-pluralism-monitor/,2026-07-19,Medium Risk
+Transparency International,Corruption Perceptions Index,2024,49,0-100,,,59,180,,,https://www.transparency.org/en/cpi/2024,https://www.transparency.org/en/cpi/2024/about/methodology,2026-07-19,
+Transparency International,Corruption Perceptions Index,2023,49,0-100,,,59,180,,,https://www.transparency.org/en/cpi/2023,https://www.transparency.org/en/cpi/2023/about/methodology,2026-07-19,
+Transparency International,Corruption Perceptions Index,2022,52,0-100,,,51,180,,,https://www.transparency.org/en/cpi/2022,https://www.transparency.org/en/cpi/2022/about/methodology,2026-07-19,
+Transparency International,Corruption Perceptions Index,2021,50,0-100,,,58,180,,,https://www.transparency.org/en/cpi/2021,https://www.transparency.org/en/cpi/2021/about/methodology,2026-07-19,
+Transparency International,Corruption Perceptions Index,2020,50,0-100,,,59,180,,,https://www.transparency.org/en/cpi/2020,https://www.transparency.org/en/cpi/2020/about/methodology,2026-07-19,
+CIVICUS,CIVICUS Monitor Civic Space Rating,2023,,obstructed,,,,,,,https://monitor.civicus.org/country/greece/,https://monitor.civicus.org/methodology/,2026-07-19,Downgraded from narrowed to obstructed in March 2023 report.
+CIVICUS,CIVICUS Monitor Civic Space Rating,2022,,narrowed,,,,,,,https://monitor.civicus.org/country/greece/,https://monitor.civicus.org/methodology/,2026-07-19,

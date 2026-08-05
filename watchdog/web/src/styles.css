@@ -1,0 +1,204 @@
+:root { --bg:#f7f8fa; --card:#fff; --line:#e2e5ea; --text:#1a1d24; --muted:#6b7280; --accent:#c0392b; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; background:var(--bg); color:var(--text); }
+.wrap { max-width:1100px; margin:0 auto; padding:24px 20px 80px; }
+header h1 { font-size:24px; margin:0 0 4px; }
+header p { color:var(--muted); margin:0 0 20px; font-size:14px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px 20px; margin-bottom:22px; }
+.card h2 { font-size:17px; margin:0 0 4px; }
+.card .sub { color:var(--muted); font-size:12.5px; margin:0 0 14px; }
+.src { font-size:11px; color:var(--muted); margin-top:10px; }
+.src a { color:var(--accent); text-decoration:none; }
+.tag { display:inline-block; font-size:10px; padding:1px 7px; border-radius:10px; margin-left:6px; vertical-align:middle; }
+.tag.unofficial { background:#fdecea; color:#c0392b; }
+.tag.verified { background:#e8f5e9; color:#2c7c4a; }
+table { width:100%; border-collapse:collapse; font-size:13px; }
+th,td { text-align:left; padding:7px 9px; border-bottom:1px solid var(--line); vertical-align:top; }
+th { color:var(--muted); font-weight:600; }
+.alert { border-left:3px solid var(--accent); padding:8px 12px; margin-bottom:8px; background:#fafbfc; border-radius:0 6px 6px 0; }
+.alert .d { font-size:11px; color:var(--muted); }
+.alert .t { font-weight:600; font-size:13.5px; }
+.alert .desc { font-size:12.5px; color:#333; margin-top:2px; }
+.kpi-row { display:flex; gap:14px; flex-wrap:wrap; margin-bottom:8px; }
+.kpi { flex:1; min-width:150px; background:#fafbfc; border:1px solid var(--line); border-radius:10px; padding:12px 14px; }
+.kpi .v { font-size:22px; font-weight:700; color:var(--accent); }
+.kpi .l { font-size:11.5px; color:var(--muted); margin-top:2px; }
+.disclaimer { background:#fff8e1; border:1px solid #ffe0a3; border-radius:10px; padding:12px 16px; font-size:12.5px; color:#5a4a1a; margin-bottom:22px; }
+select { padding:6px 10px; border:1px solid var(--line); border-radius:8px; font-size:13px; }
+
+/* ---- tabs ---- */
+.tabs { display:flex; gap:6px; flex-wrap:wrap; margin:0 0 18px; border-bottom:2px solid var(--line); }
+.tab { background:none; border:none; padding:10px 16px; font-size:14px; font-weight:600;
+  color:var(--muted); cursor:pointer; border-bottom:3px solid transparent; margin-bottom:-2px; }
+.tab:hover { color:var(--ink); }
+.tab.active { color:var(--accent); border-bottom-color:var(--accent); }
+
+/* ---- KPI grid (overview) ---- */
+.kpi-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(180px,1fr)); gap:12px; }
+.kpi-card { border:1px solid var(--line); border-radius:12px; padding:14px 16px; background:#fafbfc; }
+.kpi-card.kpi-bad { border-left:4px solid var(--accent); }
+.kpi-card.kpi-neutral { border-left:4px solid #2c7c4a; }
+.kpi-k { font-size:12px; color:var(--muted); font-weight:600; min-height:32px; }
+.kpi-v { font-size:26px; font-weight:800; color:var(--ink); margin:4px 0; }
+.kpi-note { font-size:11.5px; color:var(--muted); }
+
+/* ---- small-multiples (governance) ---- */
+.sm-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; }
+.sm { border:1px solid var(--line); border-radius:10px; padding:8px 8px 4px; background:#fff; }
+.sm-title { font-size:12.5px; font-weight:700; color:var(--ink); margin:2px 4px 4px; }
+
+/* ---- indicator picker ---- */
+.picker { width:100%; max-width:560px; margin:6px 0 14px; padding:8px 10px;
+  border:1px solid var(--line); border-radius:8px; font-size:13px; background:#fff; }
+.muted { color:var(--muted); font-size:13px; }
+
+/* ---- accountability dossier ---- */
+.badge-row { display:flex; gap:8px; flex-wrap:wrap; margin:10px 0 16px; }
+.badge { font-size:11.5px; font-weight:700; padding:4px 10px; border-radius:20px; border:1px solid var(--line); }
+.badge.sm { font-size:10.5px; padding:2px 8px; }
+.st-established { background:#eef4fb; color:#1c4e80; border-color:#c5dbf0; }
+.st-convicted  { background:#fdecec; color:#a01c1c; border-color:#f2c0c0; }
+.st-alleged    { background:#fff6e5; color:#8a5a00; border-color:#f2d9a0; }
+.st-inv        { background:#f0ecf9; color:#5a3d9c; border-color:#d6c9ef; }
+.st-unver      { background:#f2f2f2; color:#666; border-color:#ddd; }
+.doss-sec { border:1px solid var(--line); border-radius:10px; margin-bottom:8px; overflow:hidden; }
+.doss-head { width:100%; display:flex; justify-content:space-between; align-items:center;
+  background:#fafbfc; border:none; padding:12px 16px; font-size:14.5px; font-weight:700;
+  color:var(--ink); cursor:pointer; }
+.doss-head:hover { background:#f2f5f8; }
+.doss-count { background:var(--accent); color:#fff; font-size:12px; padding:1px 9px; border-radius:12px; }
+.doss-body { padding:4px 14px 10px; }
+.doss-row { padding:11px 0; border-bottom:1px solid #f0f0f0; }
+.doss-row:last-child { border-bottom:none; }
+.doss-row-top { display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin-bottom:4px; }
+.doss-date { font-size:12px; color:var(--muted); font-variant-numeric:tabular-nums; }
+.doss-actor { font-size:13.5px; color:var(--ink); }
+.doss-role { font-size:12px; color:var(--muted); font-style:italic; }
+.doss-detail { font-size:13px; color:#333; line-height:1.5; }
+.doss-resp { font-size:12.5px; color:#6a5a2a; background:#fffbf0; border-left:3px solid #e6c968;
+  padding:5px 10px; margin:5px 0; border-radius:0 6px 6px 0; }
+
+/* ---- European assessor ---- */
+.assessor { margin:6px 0 14px; }
+.assess-btn { background:#0d3b66; color:#fff; border:none; border-radius:8px;
+  padding:9px 16px; font-size:13.5px; font-weight:700; cursor:pointer; }
+.assess-btn:hover:not(:disabled) { background:#0a2e50; }
+.assess-btn:disabled { opacity:.55; cursor:default; }
+.assess-err { color:#a01c1c; font-size:12.5px; margin-top:6px; }
+.assess-out { margin-top:12px; border:1px solid #c5dbf0; background:#f6f9fc;
+  border-radius:10px; padding:14px 16px; }
+.assess-tags { display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin-bottom:8px; }
+.assess-nfacts { font-size:11.5px; color:var(--muted); }
+.assess-body { font-size:13.5px; line-height:1.62; color:#1a2a3a; }
+.assess-body p { margin:6px 0; }
+.assess-body li { margin:3px 0 3px 18px; }
+.assess-note { font-size:12px; color:#8a5a00; background:#fff6e5; border-radius:6px;
+  padding:6px 10px; margin-top:8px; }
+.assess-disc { font-size:11.5px; color:var(--muted); font-style:italic;
+  margin-top:10px; border-top:1px solid #dbe7f2; padding-top:8px; }
+
+/* ---- markdown rendering (LLM/template output) ---- */
+.md { line-height:1.6; font-size:13.5px; }
+.md h1,.md h2 { font-size:16px; margin:14px 0 8px; }
+.md h3 { font-size:14px; margin:12px 0 6px; font-weight:600; }
+.md p { margin:6px 0; }
+.md ul,.md ol { margin:6px 0 6px 20px; }
+.md li { margin:3px 0; }
+.md table { border-collapse:collapse; margin:10px 0; width:100%; font-size:12.5px; }
+.md th,.md td { border:1px solid var(--line); padding:5px 9px; text-align:left; }
+.md th { background:#eef2f6; font-weight:700; }
+.md hr { border:none; border-top:1px solid var(--line); margin:12px 0; }
+.md code { background:#eef2f6; padding:1px 5px; border-radius:4px; font-size:12.5px; }
+.md strong,.md b { font-weight:700; }
+
+/* ---- entity pages ---- */
+.entity-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:12px; margin-top:8px; }
+.entity-card { text-align:left; background:#fafbfc; border:1px solid var(--line); border-radius:10px;
+  padding:13px 15px; cursor:pointer; display:flex; flex-direction:column; gap:5px; }
+.entity-card:hover { background:#f2f5f8; border-color:#0d3b66; }
+.entity-card b { font-size:14.5px; color:var(--ink); }
+.entity-role { font-size:12px; color:var(--muted); }
+.entity-n { font-size:12px; color:#0d3b66; font-weight:700; margin-top:2px; }
+.back-btn { background:none; border:none; color:#0d3b66; font-size:13px; font-weight:700;
+  cursor:pointer; padding:0 0 8px; }
+.back-btn:hover { text-decoration:underline; }
+
+/* ---- Greece vs EU scorecard ---- */
+.euc-list { display:flex; flex-direction:column; gap:20px; margin-top:6px; }
+.euc-head { display:flex; justify-content:space-between; align-items:baseline; }
+.euc-head b { font-size:14px; }
+.euc-rank { font-size:20px; font-weight:800; }
+.euc-rank .euc-of { font-size:12px; font-weight:600; color:var(--muted); margin-left:3px; }
+.euc-bad { color:#b3261e; }
+.euc-mid { color:#0d3b66; }
+.euc-bar { position:relative; height:22px; margin:8px 0 4px; }
+.euc-track { position:absolute; top:9px; left:0; right:0; height:4px; background:#e3e8ee; border-radius:3px; }
+.euc-median { position:absolute; top:3px; width:2px; height:16px; background:#8a94a3; transform:translateX(-50%); }
+.euc-gr { position:absolute; top:1px; width:0; height:0; border-left:7px solid transparent;
+  border-right:7px solid transparent; border-bottom:13px solid #0d3b66; transform:translateX(-50%); }
+.euc-gr-bad { border-bottom-color:#b3261e; }
+.euc-legend { display:flex; justify-content:space-between; font-size:11px; color:var(--muted); }
+.euc-gr-lab { font-weight:700; color:var(--ink); }
+
+/* ---- composite index ---- */
+.derived-flag { background:#fff4e5; border:1px solid #ffd9a0; color:#8a5a00; font-size:12px;
+  padding:7px 11px; border-radius:7px; margin:8px 0 14px; }
+.comp-legend { display:flex; flex-direction:column; gap:6px; margin-top:12px; }
+.comp-item { display:grid; grid-template-columns:1fr auto auto; gap:12px; align-items:baseline; font-size:13px; }
+.comp-name { color:#333; }
+.comp-delta { font-weight:700; font-variant-numeric:tabular-nums; }
+.comp-delta.neg { color:#b3261e; }
+.comp-delta.pos { color:#1a7a3d; }
+.comp-src { font-size:11.5px; color:#0d3b66; white-space:nowrap; }
+/* ---- before/after ---- */
+.ba-list { display:flex; flex-direction:column; gap:5px; }
+.ba-row { display:grid; grid-template-columns:1.4fr 1.6fr auto auto; gap:12px; align-items:baseline;
+  font-size:13px; padding:5px 0; border-bottom:1px solid #f2f2f2; }
+.ba-vals { font-variant-numeric:tabular-nums; }
+.ba-delta { font-weight:700; font-size:12px; }
+.ba-delta.neg { color:#b3261e; }
+.ba-delta.pos { color:#1a7a3d; }
+/* ---- state-ad flow ---- */
+.flow-total { background:#f6f8fa; border-radius:8px; padding:11px 14px; margin:6px 0 16px; font-size:14px; }
+.flow-diagram { display:flex; align-items:flex-start; gap:14px; }
+.flow-gov { background:#0d3b66; color:#fff; padding:12px 16px; border-radius:9px; font-weight:700; white-space:nowrap; }
+.flow-arrow { font-size:24px; color:#8a94a3; padding-top:8px; }
+.flow-owners { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:10px; flex:1; }
+.flow-owner { background:#fafbfc; border:1px solid var(--line); border-radius:9px; padding:11px 13px; }
+.flow-owner b { font-size:13px; }
+.flow-interests { font-size:11px; color:var(--muted); margin:3px 0; }
+.flow-outlets { font-size:12px; color:#333; margin:4px 0; }
+/* ---- impunity ---- */
+.imp-counts { display:flex; flex-wrap:wrap; gap:8px; margin:6px 0 14px; }
+.imp-chip { font-size:12.5px; font-weight:700; padding:5px 11px; border-radius:20px; }
+.imp-conv { background:#e6f4ea; color:#1a7a3d; }
+.imp-acq { background:#fde8e8; color:#b3261e; }
+.imp-ong { background:#fff4e5; color:#8a5a00; }
+.imp-none { background:#f0e6f6; color:#6b3fa0; }
+.imp-unc { background:#eef1f4; color:#555; }
+.imp-list { display:flex; flex-direction:column; gap:4px; }
+.imp-row { display:grid; grid-template-columns:110px 1fr auto auto; gap:10px; align-items:center; font-size:13px; padding:4px 0; }
+.imp-badge { font-size:11px; font-weight:700; padding:3px 8px; border-radius:5px; text-align:center; }
+.imp-case { color:#222; }
+.imp-years { font-size:11.5px; color:#999; white-space:nowrap; }
+/* ---- network ---- */
+.net-people { display:flex; flex-wrap:wrap; gap:8px; margin:6px 0; }
+.net-person { background:#fafbfc; border:1px solid var(--line); border-radius:20px; padding:6px 13px;
+  font-size:13px; cursor:pointer; }
+.net-person:hover { background:#eef2f6; }
+.net-person.active { background:#0d3b66; color:#fff; border-color:#0d3b66; }
+.net-n { font-size:11px; opacity:.7; margin-left:4px; }
+.net-cases { margin-top:14px; background:#f6f8fa; border-radius:8px; padding:12px 15px; }
+.net-cases h4 { margin:0 0 9px; font-size:13.5px; }
+.net-case { display:flex; align-items:center; gap:9px; font-size:13px; padding:4px 0; }
+.net-dot { width:8px; height:8px; border-radius:50%; background:#0d3b66; flex:0 0 8px; }
+
+/* ---- impunity clock ---- */
+.imp-clock-wrap { margin:8px 0 18px; }
+.imp-clock-title { font-size:14px; color:#b3261e; margin:0 0 12px; }
+.imp-clocks { display:grid; grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:10px; }
+.imp-clock { background:#1a2a44; color:#fff; border-radius:10px; padding:14px 15px; text-align:center; }
+.imp-clock-days { font-size:30px; font-weight:800; color:#ff8a7a; font-variant-numeric:tabular-nums; line-height:1; }
+.imp-clock-lbl { font-size:10.5px; opacity:.7; text-transform:uppercase; letter-spacing:.5px; margin:2px 0 8px; }
+.imp-clock-case { font-size:12px; line-height:1.35; min-height:32px; }
+.imp-clock .comp-src { color:#8fc0ff; display:inline-block; margin-top:6px; }
