@@ -19,3 +19,6 @@ aeitei_test.html
 watchdog/web/node_modules/
 watchdog/web/dist/
 watchdog/.venv-watchdog/
+
+# αντίγραφα ασφαλείας βάσης
+data/*.duckdb.bak*
