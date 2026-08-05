@@ -161,14 +161,21 @@ FIELD_REFERENCE = {
 
 # Damping factor λ. The ΕΒΕ threshold is a FLOOR, not a price: when demand sits
 # well above the floor, a coefficient change barely moves the βάση. The undamped
-# form (λ=1) overshoots the realised move by ~2.2× on departments whose
-# coefficient changed, and LOSES to carry-forward overall.
+# form (λ=1) overshoots the realised move by ~2.2× on the departments whose
+# coefficient changed, and beats carry-forward by only 6.6% overall (MAE 498.0)
+# against 13.0% for the damped form.
 #
 # λ=0.5 was calibrated on the 2024→2025 transition (MAE 370.6 vs 399.9
-# carry-forward, +7.3%) and then scored OUT OF SAMPLE on the realised 2026
-# bases: MAE 446.6 vs 533.4 carry-forward, +16.3%, winning on 296/451
-# departments. The same optimum arises independently in both years, so it is
-# not fitted to the year being scored.
+# carry-forward, +7.3%, n=449) and then scored OUT OF SAMPLE on the realised
+# 2026 bases: MAE 464.3 vs 533.4 carry-forward, +13.0%, winning on 281/451
+# departments (80% PI coverage 0.721 against a nominal 0.80). The same optimum
+# arises independently in both years, so it is not fitted to the year scored.
+#
+# All figures above use department.scientific_field as the field key — the
+# authoritative value in the DB. An earlier pass keyed off the field of the
+# mirror page it was scraped from and reported MAE 446.6 / +16.3% / 296 wins;
+# those numbers are superseded. pipeline/score_2026.py reproduces the values
+# recorded here and writes them to the backtest_score table.
 DAMPING_LAMBDA = 0.5
 
 
