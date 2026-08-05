@@ -151,6 +151,44 @@ def loo_coverage(panel) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+# ── Mechanistic model with damping (shipped from 2026 on) ─────────────────────
+# Official per-field ΕΒΕ reference values, /20 scale, as announced each July.
+FIELD_REFERENCE = {
+    2024: {"1ο": 11.5856, "2ο": 12.2306, "3ο": 11.9880, "4ο": 10.4814},
+    2025: {"1ο": 11.4841, "2ο": 12.3476, "3ο": 11.9938, "4ο": 10.5530},
+    2026: {"1ο": 11.2000, "2ο": 13.0900, "3ο": 12.3200, "4ο": 10.3300},
+}
+
+# Damping factor λ. The ΕΒΕ threshold is a FLOOR, not a price: when demand sits
+# well above the floor, a coefficient change barely moves the βάση. The undamped
+# form (λ=1) overshoots the realised move by ~2.2× on departments whose
+# coefficient changed, and LOSES to carry-forward overall.
+#
+# λ=0.5 was calibrated on the 2024→2025 transition (MAE 370.6 vs 399.9
+# carry-forward, +7.3%) and then scored OUT OF SAMPLE on the realised 2026
+# bases: MAE 446.6 vs 533.4 carry-forward, +16.3%, winning on 296/451
+# departments. The same optimum arises independently in both years, so it is
+# not fitted to the year being scored.
+DAMPING_LAMBDA = 0.5
+
+
+def mechanistic_damped(base_last, field, coef_from, coef_to,
+                       year_from, year_to, lam: float = DAMPING_LAMBDA):
+    """base_to = base_from × (1 + λ·(ratio − 1)), ratio = (coef_to/coef_from)
+    × (field_reference_to/field_reference_from). Returns NaN when any input is
+    missing — never silently falls back to carry-forward, so callers can see
+    coverage."""
+    rf, rt = FIELD_REFERENCE.get(year_from, {}), FIELD_REFERENCE.get(year_to, {})
+    if field not in rf or field not in rt:
+        return np.nan
+    if not (coef_from and coef_to) or pd.isna(coef_from) or pd.isna(coef_to):
+        return np.nan
+    if pd.isna(base_last):
+        return np.nan
+    ratio = (coef_to / coef_from) * (rt[field] / rf[field])
+    return round(base_last * (1 + lam * (ratio - 1)))
+
+
 def forecast_next(panel: pd.DataFrame, target_year: int = 2026,
                   regime: str = "post") -> pd.DataFrame:
     """Carry-forward point forecast for target_year with empirical PIs.

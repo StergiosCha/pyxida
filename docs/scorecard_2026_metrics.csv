@@ -1,0 +1,4 @@
+model,n,MAE,median_abs,wins,max_err,err_gt_2000,coverage_80,coverage_95,improvement_vs_baseline_pct,lambda_calibrated_on,target
+mechanistic_damped (λ=0.5),451,464.3,288.0,281,7675,10,0.721,0.927,13.0,2024->2025 transition (out of sample for 2026),"βάση τελευταίου εισαχθέντα, ΓΕΛ90, όλα τα πεδία"
+carry_forward (baseline),451,533.4,336.0,170,7570,9,,,0.0,n/a,"βάση τελευταίου εισαχθέντα, ΓΕΛ90, όλα τα πεδία"
+mechanistic_undamped (λ=1.0),451,498.0,298.0,249,8137,15,,,6.6,n/a,"βάση τελευταίου εισαχθέντα, ΓΕΛ90, όλα τα πεδία"

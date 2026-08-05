@@ -527,6 +527,9 @@ def stats_projection(target_year: int = 2030, category: str = "ΓΕΛ90",
         JOIN department d    ON ri.dept_code = d.dept_code
         JOIN city_context cc ON d.nuts3      = cc.nuts3
         WHERE ri.category = ? AND d.nuts3 IS NOT NULL
+          -- Χρόνια «μόνο βάσεις» (π.χ. 2026: θέσεις/κενές δεν έχουν δημοσιευθεί)
+          -- ΔΕΝ μπαίνουν στην τάση κενών θέσεων: το NULL δεν είναι μηδέν.
+          AND ri.vacancy_rate IS NOT NULL
         GROUP BY 1,2,3,4 ORDER BY 2,1
     """, [category])
     from collections import defaultdict
@@ -663,6 +666,9 @@ def stats_regions_trend(category: str = "ΓΕΛ90"):
         JOIN department d    ON ri.dept_code = d.dept_code
         JOIN city_context cc ON d.nuts3      = cc.nuts3
         WHERE ri.category = ? AND d.nuts3 IS NOT NULL
+          -- Χρόνια «μόνο βάσεις» (2026) εξαιρούνται: κενές θέσεις δεν έχουν
+          -- δημοσιευθεί, και το NULL δεν είναι μηδέν.
+          AND ri.vacancy_rate IS NOT NULL
         GROUP BY 1,2,3,4
         ORDER BY ri.year, avg_vacancy DESC
     """, [category])
